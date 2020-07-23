@@ -169,7 +169,7 @@ body{
     .gcontainer .gcont .friends .list .listb ul li .name{
       margin-right: 32px;
       display: flex;
-      justify-content: center;
+      justify-self: flex-start;
       flex-direction: column;
     }
     .gcontainer .gcont .friends .list .listb ul li .name .ph img{
