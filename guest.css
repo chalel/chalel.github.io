@@ -173,6 +173,8 @@ body{
       flex-direction: column;
     }
     .gcontainer .gcont .friends .list .listb ul li .name .ph img{
+      display: flex;
+      justify-self: flex-start;
       width: 70%;
     }
     .gcontainer .gcont .friends .list .listb ul li .name .ph{
