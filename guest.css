@@ -174,8 +174,8 @@ body{
     }
     .gcontainer .gcont .friends .list .listb ul li .name .ph img{
       display: flex;
-      justify-self: flex-start;
-      width: 70%;
+      justify-content: center;
+      width: 100%;
     }
     .gcontainer .gcont .friends .list .listb ul li .name .ph{
       display: flex;
