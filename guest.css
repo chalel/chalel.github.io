@@ -167,7 +167,7 @@ body{
       width: 100%;
     }
     .gcontainer .gcont .friends .list .listb ul li .name{
-      margin-right: 32px;
+      /* margin-right: 32px; */
       display: flex;
       justify-self: flex-start;
       flex-direction: column;
