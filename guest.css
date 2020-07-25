@@ -167,7 +167,7 @@ body{
       width: 100%;
     }
     .gcontainer .gcont .friends .list .listb ul li .name{
-      /* margin-right: 32px; */
+      margin-left: -36px;
       display: flex;
       justify-self: flex-start;
       flex-direction: column;
@@ -175,6 +175,8 @@ body{
     .gcontainer .gcont .friends .list .listb ul li .name .ph img{
       display: flex;
       justify-content: center;
+      height: 250px;
+      border-radius: 0;
       width: 70%;
     }
     .gcontainer .gcont .friends .list .listb ul li .name .ph{
