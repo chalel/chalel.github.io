@@ -137,7 +137,7 @@ body{
 
 @media(max-width:551px){
   .container .bod .image img {
-    height: 163px;
+    height: 175px;
     position: relative;
     width: 90%;
   }
