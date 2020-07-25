@@ -155,7 +155,7 @@ body{
   }
   @media(max-width:551px){
     .gcontainer .gcont .photo img{
-      height: 175px;
+      height: 150px;
       width: 90%;
     }
     .gcontainer .gcont .friends .list .listb ul {
