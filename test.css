@@ -1,0 +1,7 @@
+.tester{
+    display: flex;
+    flex-direction: column;
+}
+.tester .ell img{
+    height: 250px;
+}
