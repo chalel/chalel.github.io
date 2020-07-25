@@ -26,6 +26,9 @@
         const direct = () =>{
             window.open('https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Finstantgames%2F474443516378085', '_self')
         }
+        const urlParams = new URLSearchParams(window.location.search);
+        const myParam = urlParams.get('Name');
+        console.log(myParam);
     </script>
     <div class="gcontainer">
         <div class="ghead">
