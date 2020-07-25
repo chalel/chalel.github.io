@@ -26,16 +26,6 @@
         const direct = () =>{
             window.open('https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Finstantgames%2F474443516378085', '_self')
         }
-        const urlParams = new URLSearchParams(window.location.search);
-        const myParam = urlParams.get('Name');
-        switch(myParam){
-            case 'lian': const nm = document.querySelector('#one')
-            const nm1 = document.querySelector('#two')
-            const nm2 = document.querySelector('#three')
-            const nm3 = document.querySelector('#four')
-            const nm4 = document.querySelector('#five')
-            nm.src = 'https://scontent.fevn6-1.fna.fbcdn.net/v/t1.0-9/p960x960/44295987_104728830518499_237804655483027456_o.jpg?_nc_cat=100&_nc_sid=85a577&_nc_ohc=ZAr7NgMkaRAAX92DC5J&_nc_ht=scontent.fevn6-1.fna&_nc_tp=6&oh=5289cdb3a66d3f2002519baf662c2978&oe=5F3BD4D1'
-        }
     </script>
     <div class="gcontainer">
         <div class="ghead">
@@ -78,7 +68,7 @@
                             </li>
                             <li>
                                 <div class="name">
-                                    <div class="ph"><img  id="two" src="https://scontent.fevn6-2.fna.fbcdn.net/v/t1.0-9/74158278_2516799438407102_1269366185489596416_n.jpg?_nc_cat=111&_nc_sid=85a577&_nc_ohc=TL16_OGG4DwAX9tW2GS&_nc_ht=scontent.fevn6-2.fna&oh=e5f02cd02a186d97048941c5f4c0edc4&oe=5F3D8F00" alt=""></div>
+                                    <div class="ph"><img id="two" src="https://scontent.fevn6-2.fna.fbcdn.net/v/t1.0-9/74158278_2516799438407102_1269366185489596416_n.jpg?_nc_cat=111&_nc_sid=85a577&_nc_ohc=TL16_OGG4DwAX9tW2GS&_nc_ht=scontent.fevn6-2.fna&oh=e5f02cd02a186d97048941c5f4c0edc4&oe=5F3D8F00" alt=""></div>
                                     <div class="nm" id="two1" >Arman Avetisyan</div>
                                     <div class="count" id="two2" >13 посещений</div>
                                 </div>
@@ -131,5 +121,16 @@
             </div>
         </div>
     </div>
+    <script>        
+        const urlParams = new URLSearchParams(window.location.search);
+        const myParam = urlParams.get('Name');
+        switch(myParam){
+            case 'lian': const nm = document.querySelector('#one')
+            const nm1 = document.querySelector('#two')
+            const nm2 = document.querySelector('#three')
+            const nm3 = document.querySelector('#four')
+            const nm4 = document.querySelector('#five')
+            nm.src = 'https://scontent.fevn6-1.fna.fbcdn.net/v/t1.0-9/p960x960/44295987_104728830518499_237804655483027456_o.jpg?_nc_cat=100&_nc_sid=85a577&_nc_ohc=ZAr7NgMkaRAAX92DC5J&_nc_ht=scontent.fevn6-1.fna&_nc_tp=6&oh=5289cdb3a66d3f2002519baf662c2978&oe=5F3BD4D1'
+        }</script>
 </body>
 </html>
